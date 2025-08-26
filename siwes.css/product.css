@@ -132,7 +132,7 @@ button {
     margin: 10px 0;
 }
 
-.product-card p {
+.product-card {
     color: orange;
     font-weight: bold;
     margin-bottom: 10px;
