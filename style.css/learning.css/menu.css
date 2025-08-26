@@ -1,0 +1,98 @@
+/* navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    background: rgb(163, 2, 16);
+    margin-bottom: -1px;
+    border-radius: 2px;
+    padding-right: 20px;
+    
+}
+
+nav ul li {
+    padding-top: 20px;
+    padding-right: 2px;   
+}
+
+nav ul h2 {
+    margin-right: 51pc;
+    color: white;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+/* home page */
+.container {
+    text-align: center;
+    background-image: url(https://cdn.tasteatlas.com/images/dishes/41ca6dfc48714647a813a6c1333a9e94.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 35vh;
+}
+.container h1 {
+    font-size: xx-large;
+    color: white;
+}
+.container p {
+    color: white;
+}
+.btn {
+    display: inline-block;
+    border-radius: 5px;
+    color: brown;
+    background: wheat;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+/* menu page */
+.menu-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 2rem;
+}
+
+.card{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.card {
+    transform: scale(1.03);
+}
+
+.grid img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 10px 0;
+    text-align: center;
+    color: brown;
+}
+.menu-card h2{
+    text-align: center;
+    color: brown;
+}
+
+.card p {
+    color: black;
+    margin-bottom: 10px;
+}
+/* about page */

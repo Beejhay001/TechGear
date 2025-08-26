@@ -1,0 +1,124 @@
+/* navigation */
+nav {
+    display: flex;
+    /* padding: 1rem 2rem; */
+    justify-content: space-between;
+    /* background: #222; */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    background: whitesmoke;
+    margin-bottom: 0px;
+}
+
+nav ul li {
+    padding-top: 20px;
+    padding-right: -15px;
+    margin-left: 7px;
+}
+
+nav ul h2 {
+    margin-right: 50pc;
+    color: orange;
+}
+
+nav ul li a {
+    color: orange;
+    text-decoration: none;
+    margin: 0 10px;
+}
+/* home page */
+.container {
+    text-align: center;
+    background-image: url(https://i0.wp.com/www.travelwaka.com/wp-content/uploads/2019/04/abk-10.jpg?resize=1024%2C683&ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 35vh;
+}
+.container h1 {
+    font-size: x-large;
+    color: white;
+}
+.container p {
+    color: white;
+}
+.btn {
+    display: inline-block;
+    border-radius: 5px;
+    color: white;
+    background: black;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+/* attraction page */
+.attractions-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 2rem;
+}
+
+.grid {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.grid {
+    transform: scale(1.03);
+}
+
+.grid img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.grid h3 {
+    margin: 10px 0;
+}
+
+.grid p {
+    color: black;
+    margin-bottom: 10px;
+}
+/* contact page */
+form {
+    max-width: 200px;
+    flex-direction: column;
+    display: flex;
+    gap: 15px;
+    margin-left: 350px;
+}
+
+.form-section h2 {
+    margin-right: 50px;
+}
+
+input {
+    width: 500px;
+    border-radius: none;
+}
+
+.form-sec p {
+    max-width: 700px;
+    margin-right: 70px;
+    justify-self: center;
+}
+button {
+    width: 510px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+.form-section {
+    text-align: center;
+}

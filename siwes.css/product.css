@@ -1,0 +1,139 @@
+/* navigation */
+}
+nav {
+    display: flex;
+    padding: 1rem 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    margin-bottom: -5px;
+}
+
+nav ul li {
+    /* margin-left: 20px; */
+    padding-top: 20px;
+    padding-right: 15px;
+}
+
+nav ul h2 {
+    margin-right: 53pc;
+    color: white;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    /* font-weight: bold; */
+}
+
+/* about page */
+form {
+    max-width: 200px;
+    flex-direction: column;
+    display: flex;
+    gap: 15px;
+    margin-left: 350px;
+}
+
+.about-con h2 {
+    margin-right: 400px;
+}
+
+input {
+    width: 500px;
+    border-radius: none;
+}
+
+.about p {
+    max-width: 700px;
+    margin-left: 20px;
+    justify-self: center;
+}
+
+button {
+    width: 510px;
+    background-color: orange;
+    border: none;
+    color: white;
+
+}
+
+.about-con {
+    text-align: center;
+}
+
+/* landing page */
+.container {
+    text-align: center;
+    background-image: url(https://png.pngtree.com/background/20240114/original/pngtree-gadgets-in-a-striking-3d-dim-environment-picture-image_7276667.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 35vh;
+}
+
+.container h2 {
+    font-size: x-large;
+    color: white;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 5px;
+    color: white;
+    background: black;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.container p {
+    color: white;
+}
+
+/* product page */
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 2rem;
+}
+
+.product-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.product-card {
+    transform: scale(1.03);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+}
+
+.product-card p {
+    color: orange;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
